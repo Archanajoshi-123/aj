@@ -1,0 +1,101 @@
+/* Maininfra.css */
+
+/* Column layout for mobile views */
+@media (max-width: 800px) {
+  .rk2 {
+    flex-direction: column; /* Ensure column layout */
+  }
+  .col-lg-28 {
+    flex: 0 0 100%; /* Full width for each card */
+    max-width: 100%; /* Ensure card occupies full width */
+  }
+}
+
+/* Column layout for larger views */
+.col-lg-28 {
+  flex: 1 0 50%; /* Half width for larger views */
+  max-width: 100%;
+}
+
+/* Margin bottom */
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+/* Card styling */
+.Aicard {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Position relative */
+.position-relative {
+  position: relative;
+}
+
+/* Image fluid */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* Padding for card content */
+.pd3 {
+  padding: 15px;
+}
+
+/* Text styling */
+.ptext {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Link styling */
+.td {
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+/* Hover effect for links */
+.td:hover {
+  color: #00b306;
+}
+
+/* Read more text styling */
+.readtxt {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Horizontal rule styling */
+.hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Flex center alignment */
+.dfle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subheadkk43{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+}
+@media(max-width:786px){
+  .subheadkk43{
+    font-size: 27px;
+  }
+  .why-choose h2 {
+    font-size: 24px;
+}
+}
+

@@ -1,0 +1,170 @@
+.active {
+    color: green /* Change text color for active link */
+}
+
+.Enlogo {
+    height: 45px;
+    width: 240px;
+    padding-right: 30px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    padding: 0 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav .title {
+    font-size: 28px; 
+    color: black; 
+    font-weight: 700;
+    text-decoration: none;
+    display: flex; 
+    align-items: center; 
+}
+
+nav ul {
+    display: flex;
+    margin-left: 5px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.20s ease;
+}
+
+nav ul li:hover > a {
+    font-size: 22px;
+    color: rgb(22, 152, 192); /* Change text color on hover */
+}
+
+nav ul li a:not(.active):hover {
+    border-radius: 10px;
+}
+
+nav .menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+nav .menu span {
+    height: 4px;
+    width: 100%;
+    background-color: black; 
+    border-radius: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 50px;
+    transition: all 0.20s ease;
+}
+.s-wid{
+    width: 490px;
+}
+.t-wid{
+  width: 260px;
+}
+
+.infa-wid{
+    width: 440px;
+}
+
+.ind-wid{
+    min-width: 280px;
+}
+
+.dropdown-content a {
+    color: black; /* Ensure dropdown menu items have black text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    color: rgb(22, 152, 192); /* Change text color on hover */
+    background-color: transparent; /* Ensure background remains transparent */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    nav .menu {
+        display: flex;
+    }
+   nav .df{
+    display: flex;
+    flex-direction: row;
+}
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 95px;
+        right: 0;
+        left: 0;
+        background-color: rgb(168, 224, 142);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        color: black;
+        display: block;
+    }
+}

@@ -1,0 +1,19 @@
+.img_element{
+    width: 70%;
+}
+.img_yelement{
+    width: 60%;
+}
+@media(max-width:768px){
+    .img_element{
+        width: 100%;
+    }
+    .img_yelement{
+        width: 100%;
+    }
+}
+/* @media(min-width:769px)and(max-width:1024px){
+    .img_element{
+        width: 80%;
+    }
+} */

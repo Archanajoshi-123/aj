@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cb2 {
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+    color: white;
+}
+
+.flexing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-body ul {
+    padding-left: 1rem;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card-body ul li p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.txt {
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card4 {
+    height: 150px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card5 {
+    height: 600px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.T2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.T3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+.T4 {
+    padding-top: 30px;
+}
+
+.bg {
+    background-color: rgb(227, 227, 228);
+}
+
+.card8 {
+    height: 150px;
+    width: 91%;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txt h2 {
+    font-size: 24px;
+}
+
+.txt p {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Mobile devices (320px to 561px) */
+@media (min-width: 320px) and (max-width: 561px) {
+    .txt {
+        top: 5%;
+    }
+    .card4 {
+        height: 357px;
+        width: 95%;
+    }
+    .T3 {
+        font-size: 18px;
+        padding: 20px 50px 0 60px;
+    }
+    .T2 {
+        font-size: 25px;
+    }
+    .card8 {
+        height: 370px;
+        width: 90%;
+    }
+}
+
+/* Small tablets (425px to 767px) */
+@media (min-width: 425px) and (max-width: 767px) {
+    .txt h2 {
+        font-size: 20px;
+    }
+    .txt p {
+        font-size: 19px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+
+/* Large tablets and small laptops (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .txt h2 {
+        font-size: 30px;
+    }
+    .txt p {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+
+/* Laptops (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .txt h2 {
+        font-size: 49px;
+    }
+    .txt p {
+        font-size: 35px;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+}
+
+/* Desktops (1200px and above) */
+@media (min-width: 1200px) {
+    .txt h2 {
+        font-size: 36px;
+    }
+    .txt p {
+        font-size: 20px;
+    }
+}

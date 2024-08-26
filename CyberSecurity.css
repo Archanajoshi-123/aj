@@ -1,0 +1,396 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+
+.cb2Raj {
+    background:  linear-gradient(to right,  #56CCF2, #2F80ED);
+color:white;
+    
+}
+
+
+.flexingRaj{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imgRaj{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.style3Raj{
+    display:flex;
+      flex-Direction:row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 60px;
+      padding-bottom: 20px;
+  }
+
+
+  .img4Raj{
+    width: 35%;
+  height: 350px ;
+  margin: 0 auto ;
+   border-Radius:10px;
+    box-Shadow:0px 0px 5px 0px;
+
+  }
+  .image3Raj{
+  
+    border-Radius:18px 18px 18px 18px;
+    width: 80%;
+  
+  
+  }
+  .T43Raj{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:"wittgenstein";
+    padding-right: 30px;
+    display: flex;
+    text-align: left;
+  }
+  
+.flex4Raj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   flex-direction: column;
+}
+.card12Raj{
+    height: 200px;
+    width: 700px;
+    border-radius: 8px;
+   }
+
+.T81Raj{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding-top: 20px;
+
+}
+.T8Raj{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0px;
+    font-family:"wittgenstein";
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+   
+    }
+
+
+.bgRaj{
+    background-color: rgb(227, 227, 228);
+}
+.flex83Raj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+  
+
+    .T8Raj{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 0px;
+        font-family: "wittgenstein";
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .card12Raj {
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        border-radius: 8px;
+    }
+    
+    .T43Raj {
+        font-size: 18px;
+    }
+    .style3Raj {
+        display: flex;
+        flex-Direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .img4Raj {
+        width: 69%;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+    .image3Raj {
+        width: 60%;
+        border-radius: 10px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .T43Raj {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .flex83Raj {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .T81Raj {
+        font-size: 24px;
+        padding-top: 0px;
+
+    }
+    
+    .ullikRaj {
+        font-size: 18px;
+        font-family: 'wittgenstein';
+
+        /* padding-left: 15px; */
+        margin-left: 20px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+    .card12Raj {
+        height: 275px;
+        width: 324px;
+    }
+    .T81Raj{
+        font-size: 24px;
+        padding-top: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .T8Raj{
+        font-size: 18px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+
+    }
+    .style3Raj {
+      
+        padding-left: 36px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .T43Raj {
+        font-size: 18px;
+    }
+    .img4Raj {
+        width: 50%;
+        height: 225px;
+        margin-bottom: 20px;
+    }
+    
+
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+    .card12Raj {
+        height: 335px;
+        width: 450px;
+        border-radius: 8px;
+    }
+    .T8Raj{
+        font-size: 22px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+
+    }
+    .img4Raj {
+  
+        height: 350px; 
+        width: 61%;
+    }
+    
+    
+
+}
+
+
+@media (min-width: 1199px) and (max-width: 1400px)
+ {
+  
+
+    .T8Raj{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 0px;
+        font-family: "wittgenstein";
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .card12Raj {
+        height: auto;
+        width: 90%;
+        margin-left: 20px;
+        border-radius: 8px;
+    }
+    
+    .T43Raj {
+        font-size: 18px;
+    }
+    .style3Raj {
+        display: flex;
+        flex-Direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .img4Raj {
+        width: 69%;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+    .image3Raj {
+        width: 60%;
+        border-radius: 10px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .T43Raj {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .flex83Raj {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .T81Raj {
+        font-size: 24px;
+        padding-top: 0px;
+
+    }
+    
+    .ullikRaj {
+        font-size: 18px;
+        font-family: 'wittgenstein';
+
+        /* padding-left: 15px; */
+        margin-left: 20px;
+    }
+
+
+ }
+
+  
+
+
+@media (min-width: 250px) and (max-width: 424px) {
+
+    .T8Raj{
+            
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 0px;
+        font-family: wittgenstein;
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }   
+   .T81Raj{
+    font-size: 24px;
+    padding-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }     
+   .card12Raj{
+    height: auto;
+    width: 90%;
+margin-left: 16px;
+        border-radius: 8px;
+      
+
+
+    }
+ 
+    .style3Raj {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .T43Raj {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img4Raj {
+        width: 66%;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .image3Raj {
+        margin-left: 60px;
+        width: 60%;
+        border-radius: 10px;
+        height: 200px;
+    }
+    .flex83Raj {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+@media (min-width:1199px) and (max-width:1400px){
+
+    .dcharm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ccardwid{
+        width: 80%;
+    }
+
+}

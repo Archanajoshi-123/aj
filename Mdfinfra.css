@@ -1,0 +1,206 @@
+.Ai-card {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Hp {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.ptext, .t18, .ullikk {
+    margin: 0;
+    padding: 0;
+}
+
+.card3 {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #4EC1E6, #2F96B4);
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.ptext1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.why-choose h2 {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.why-choose ul {
+    font-family: 'wittgenstein';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.why-choose li {
+    font-family: 'wittgenstein';
+    margin-bottom: 10px;
+    color: black;
+}
+
+.wp {
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Default font sizes */
+.txt h2 {
+    font-size: 24px;
+}
+
+.txt p {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.why-choosehead {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* Media queries for increasing font sizes on larger screens */
+@media (min-width: 768px) {
+    .txt h2 {
+        font-size: 50px;
+    }
+
+    .txt p {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    .txt h2 {
+        font-size: 70px;
+    }
+
+    .txt p {
+        font-size: 35px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .txt h2 {
+        font-size: 70px;
+    }
+
+    .txt p {
+        font-size: 35px;
+    }
+
+    .btn {
+        font-size: 22px;
+        padding: 16px 32px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .txt h2 {
+        font-size: 22px;
+    }
+
+    .txt p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .ullikk {
+        font-size: 18px;
+        font-family: 'wittgenstein';
+        color: white;
+        /* padding-left: 15px; */
+        margin-left: 20px;
+    }
+
+    
+    .card3 {
+        padding: 15px; /* Add padding inside the card */
+    }
+
+    .ptext1 {
+        font-size: 18px;
+    }
+
+    .why-choosehead {
+        font-size: 28px;
+    }
+
+    .why-choose ul {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

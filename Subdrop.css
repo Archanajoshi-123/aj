@@ -1,0 +1,18 @@
+/* Hide the dropdown arrow */
+.custom-dropdown::after {
+    display: none !important;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .custom-dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  
+  /* Ensure dropdowns within dropdowns are styled correctly */
+  .custom-dropdown .dropdown-menu {
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,23 @@
+ /* .chat{
+    margin-top:20px;
+} 
+  */
+
+  /* Chatbot.css */
+
+/* Default styles for the chatbot */
+.chat {
+    width: 400px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+  }
+  
+  /* Hide the chatbot on mobile view (screens narrower than 600px) */
+  @media (max-width: 569px) {
+    .chat {
+      display: none;
+    }
+  }
+  

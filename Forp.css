@@ -1,0 +1,83 @@
+.background-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .background-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .background-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .background-content button:hover {
+    background-color: #0056b3;
+  }/* Blurred background overlay */
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: 999; /* Ensure it appears below the submit message */
+}
+
+/* Thank You message card */
+.submit-message {
+  font-size: 2.5rem; /* Slightly larger text */
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #28a745; /* Green text color */
+  background-color: #ffffff; /* White background color */
+  border: 1px solid #ffffff; /* Green border */
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for card effect */
+  animation: fadeIn 0.5s ease-in-out;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    max-width: 80%;
+  }
+  .submit-message{
+    top:50%
+  }
+}
+
+@media (max-width: 576px) {
+  .submit-message {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    max-width: 90%;
+  }
+  .submit-message{
+    top:50%
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,151 @@
+/* Technologies.css */
+
+/* Main container styling */
+.technologies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+/* Card and image container styling */
+.div1card {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black shadow */
+    z-index: 1;
+}
+
+.txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70.5px; /* Responsive font size */
+    font-weight: 600;
+    z-index: 2; /* Ensure text is above the overlay */
+    text-align: center;
+}
+
+
+/* Content section styling */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin: 20px; /* Add margin to separate sections */
+}
+
+.orc, .msimg, .sapimg, .openimg {
+    width: 100%;
+    max-width: 300px;
+}
+.AIimage{
+    width: 100%;
+    max-width: 500px; 
+}
+
+/* DBA services section styling */
+.dba-services {
+    background: linear-gradient(to right, #3A7BD5, #56CCF2);
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: left;
+    margin: 30px; /* Add margin for spacing */
+    padding: 41px;
+}
+
+.pt {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ullikk {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    color: white;
+}
+
+.hr {
+    width: 100%;
+    border-top: 1px solid rgb(168, 168, 168);
+    margin-top: 60px;
+}
+
+.pt2 {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+}
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .txt {
+        font-size: 6vw; /* Adjust font size for tablets */
+    }
+    
+.pt2 {
+    font-size: 18px;
+    font-family: 'wittgenstein';
+}
+.ullikk {
+    font-size: 18px;
+    
+}
+.dba-services {
+    background: linear-gradient(90deg, #3a7bd5, #56ccf2);
+    border-radius: .5rem;
+    box-shadow: 0 0 5px #0003;
+    color: #000;
+    margin: 8px;
+    padding: 7px;
+    text-align: left;
+}
+    
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .txt {
+        font-size: 5vw; /* Adjust font size for mobile phones */
+    }
+    .pt2 {
+        font-size: 18px;
+        font-family: 'wittgenstein';
+    }    
+    .ullikk {
+        font-size: 18px;
+    }
+    
+}

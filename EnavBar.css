@@ -1,0 +1,227 @@
+nav {
+    width: 100%;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  nav ul {
+    display: none;
+  }
+  
+  nav ul.open {
+    display: block;
+  }
+
+  
+  
+  nav .title {
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    margin-left: 5px;
+    padding-top: 20px;
+  }
+  
+  nav ul li {
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 5px;
+    position: relative;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.20s ease;
+  }
+  
+  nav ul li:hover > a {
+    font-size: 22px;
+    color: rgb(22, 152, 192);
+  }
+  
+  nav ul li a:not(.active):hover {
+    border-radius: 10px;
+  }
+  
+  nav .menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  nav .menu span {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 2px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 50px;
+    transition: all 0.20s ease;
+  }
+  
+   .dropdown-content a {
+    color: black;
+    width:9cm;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+  } 
+  
+  .dropdown-content a:hover {
+    color: rgb(22, 73, 216);
+    background-color:transparent;
+  }
+  
+  .dropdown-content,
+  .nested-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .nested-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #f0eded;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+  }
+  .show {
+    display: block;
+  }
+  
+  
+  
+  .dropdown:hover .dropdown-content,
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropdown-content,
+.dropdown-content.show {
+  display: block;
+}
+  
+  .nested-dropdown-content {
+    left: 100%;
+    top: 0;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 1024px) {
+    .dropdown-content {
+      position: relative;
+      top: 0;
+      left: 0;
+      box-shadow: none;
+    }
+  }
+
+  @media (max-width:850px){
+    .nav{
+      display: flex;
+      justify-content: space-between;
+    }
+
+  }
+  
+  
+  @media (max-width: 1164px) {
+    nav .menu {
+      display: flex;
+    }
+    nav .df {
+      display: flex;
+      flex-direction: row;
+    }
+    nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background: white;
+      padding: 0;
+    }
+    nav ul.open {
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 0;
+      width: 100%;
+    }
+    nav ul li a {
+      justify-content: flex-start;
+      padding: 10px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .dropdown-content,
+    .nested-dropdown-content {
+      position: relative;
+      top: 0;
+      left: 0;
+      box-shadow: none;
+    }
+    .dropdown-content a,
+    .nested-dropdown-content a {
+      padding: 10px 20px;
+    }
+  }
+
+  
+  @media (max-width:1164px){
+    nav {
+      display: flex;
+      justify-content: space-between;
+     padding-right:30px ;
+     padding-left: 0px;
+    }
+  }
+

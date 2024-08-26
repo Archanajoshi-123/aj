@@ -1,0 +1,472 @@
+.imgqa {
+  width: 100% !important;
+  height: auto;
+  object-fit: cover;
+  
+}
+.txtqa {
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.fontqa {
+  font-family: wittgenstein;
+  font-size: 22px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+}
+.font2qa{
+padding-left: 50px;
+font-family: wittgenstein;
+padding-right: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 30px;
+padding-bottom: 30px;
+font-weight: 600px;
+
+}
+.padqa {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.dflexqa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.flexqa{
+  display: flex;
+  flex-direction: row;
+}
+.flex1qa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wtpqa {
+  font-family: 'wittgenstein';
+  font-size: 44px;
+  font-weight: 700;
+}
+.szqa{
+  font-size: "40px";
+          font-weight: "600";
+          font-family: "Franklin Gothic Medium";
+          padding-left: 50px;
+          padding-right: 50px;
+          
+}
+
+.card1qa {
+  position: relative;
+  width: 75%;
+  height: 290px;
+ background: linear-gradient(to right, #56CCF2, #2F80ED);
+  margin-left: 60px;
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.cardqa {
+
+  width: 35%;
+  height: 255px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-left: 60px;
+  background: linear-gradient(to right, #4073b3, #00C6FF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  padding-left: 20px;
+  color: white;
+}
+.fwqa{
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font1qa {
+  font-family: wittgenstein;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+
+}
+.card1qa-text {
+  padding: 10px;
+} 
+.padiqa{
+    padding-top: 30px;
+}
+.padi1qa{
+  padding-top: 50px;
+}
+.padqa{
+padding-bottom: 0px;
+}
+.midimgqa{
+  width:30%;
+  border-radius: 10px;
+}
+.font3qa{
+font-family: wittgenstein;
+font-size: 22px;
+padding-left: 50px;
+padding-right: 50px;
+}
+/* Extra Small devices (max-width: 320px) */
+@media (max-width: 320px) {
+.imgqa {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fontqa, .font1qa, .font3qa {
+  font-size: 18px;
+   padding-left: 20px;
+  padding-right: 20px;
+}
+
+.font2qa {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.wtpqa {
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.szqa {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  /* margin-left: 20px; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dflexqa {
+  padding-top: 10px;
+}
+
+.flexqa {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex1qa {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+.card1qa, .cardqa {
+  width: 90%;
+  margin: 0 auto 10px;
+  height: auto;
+  padding: 10px;
+  
+}
+
+.midimgqa {
+  width: 70%;
+  height: auto;
+}
+
+.padiqa, .padi1qa {
+  padding-top: 10px;
+}
+}
+
+/* Small devices (321px to 425px) */
+@media (min-width: 321px) and (max-width: 425px) {
+.imgqa {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fontqa, .font1qa, .font3qa {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.font2qa {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.wtpqa {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.szqa {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dflexqa {
+  padding-top: 15px;
+}
+
+.flexqa {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex1qa {
+  flex: 1 1 100%;
+  margin-bottom: 15px;
+}
+
+.card1qa, .cardqa {
+  width: 90%;
+  margin: 0 auto 15px;
+  height: auto;
+  padding: 15px;
+}
+
+.midimgqa {
+  width: 70%;
+  height: auto;
+}
+
+.padiqa, .padi1qa {
+  padding-top: 15px;
+}
+}
+
+/* Medium devices (426px to 767px) */
+@media (min-width: 426px) and (max-width: 767px) {
+.imgqa {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fontqa, .font1qa, .font3qa {
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.font2qa {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+.wtpqa {
+  font-size: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.szqa {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dflexqa {
+  padding-top: 20px;
+}
+
+.flexqa {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex1qa {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.card1qa, .cardqa {
+  width: 90%;
+  margin: 0 auto 20px;
+  height: auto;
+  padding: 20px;
+}
+
+.midimgqa {
+  width: 80%;
+  height: auto;
+}
+
+.padiqa, .padi1qa {
+  padding-top: 20px;
+}
+}
+
+/* Tablet and small desktop (768px and up) */
+@media (min-width: 768px) and (max-width: 1023px) {
+.imgqa {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.font1qa, .font3qa {
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.fontqa{
+        font-size: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+.font2qa {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.wtpqa {
+  font-size: 40px;
+}
+
+.szqa {
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dflexqa {
+  padding-top: 30px;
+}
+
+.flexqa {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex1qa {
+  flex: 1 1 50%;
+  margin-bottom: 20px;
+}
+
+.card1qa, .cardqa {
+  width: 90%;
+  margin: 0 auto 20px;
+  height: auto;
+  padding: 20px;
+}
+
+.midimgqa {
+  width: 80%;
+}
+
+.padiqa, .padi1qa {
+  padding-top: 20px;
+}
+}
+
+/* Small desktop and larger tablets (1024px and up) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+.imgqa {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fontqa, .font1qa, .font3qa {
+  font-size: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.font2qa {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 40px;
+}
+
+.wtpqa {
+  font-size: 40px;
+}
+
+.szqa {
+  font-size: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+}
+
+.dflexqa {
+  padding-top: 30px;
+}
+
+.flexqa {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex1qa {
+  flex: 1 1 45%;
+  margin-bottom: 20px;
+}
+
+.card1qa, .cardqa {
+  width: 80%;
+  margin: 0 auto 20px;
+  height: auto;
+  padding: 20px;
+}
+
+.midimgqa {
+  width: 70%;
+}
+
+.padiqa, .padi1qa {
+  padding-top: 20px;
+}
+}
+@media (min-width:1280px) and (max-width:1439px){
+.card1qa{
+  height:300px;
+}
+.cardqa{
+  height:320px;
+}
+}
+
